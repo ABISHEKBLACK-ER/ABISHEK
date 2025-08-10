@@ -20,7 +20,7 @@
 
 a{
   text-decoration: none;
-  color: rgb(11, 4, 206);;
+  color: white;;
   padding: 5px 5x;
   
 }
@@ -63,7 +63,7 @@ font-weight: bold;
   }
 
   .nav-links li a:hover{
-    color: whitesmoke
+    color: blue
   }
 
   .action{
@@ -73,7 +73,7 @@ font-weight: bold;
     color: black;
   }
   .action:hover{
-    background-color:rgb(54, 51, 144);
+    background-color:blue
 
     
   }
