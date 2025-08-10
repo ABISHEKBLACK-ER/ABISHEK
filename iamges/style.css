@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+  --bg-color: #f1f1f1;
+  --text:#333;
+  --white: #fff;
+
+  --active: #fbfbfbe1;
+  --active-dark:#ff6600;
+  --normal: #555;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(11, 4, 206);;
+  padding: 5px 5x;
+  
+}
+
+
+body{
+  background-color: var(--bg-color);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 2%;
+  background-color: black;
+}
+.logo{
+  cursor: pointer;
+  font-size: 20px;
+  text-rendering: uppercase;
+  letter-spacing: 1px ;
+  color:#ff6600 ;
+font-weight: bold;  
+  margin-right: var(--active);
+}
+.nav-links{
+  list-style: none;
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 2px 10px;
+}
+.nav-links li a{
+    font-size: 18px;
+  transition: 0.3;
+}
+.nav-links li a.active{
+  color:whitesmoke;
+  }
+
+  .nav-links li a:hover{
+    color: whitesmoke
+  }
+
+  .action{
+    padding: 12px 25px;
+    background-color: white;
+    
+    color: black;
+  }
+  .action:hover{
+    background-color:rgb(54, 51, 144);
+
+    
+  }
+  .banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 1300px;
+    height : auto}
+
+    .banner-text h6{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+
+
+    }
+
+    
+  .banner-text{
+    position: absolute;
+    top: 40%;
+    color: white;
+    padding: 100px;
+    justify-self: space-between;
+  }
+.button-group {
+  display: flex;
+  gap: 8px; 
+  margin-top: 8px;
+}
+
+.button {
+  padding: 6px 12px;
+  color: white;
+  font-size: 14px;
+}
+
+.green-btn {
+  background-color: #9acd32; 
+}
+
+.orange-btn {
+  background-color: #ff7f50; 
+}
+  .green-btn:hover {
+    background-color: #7cb342; 
+  }
+.orange-btn:hover {
+    background-color: #ff5722; 
+  }
+
+          
+ 
+
+    
